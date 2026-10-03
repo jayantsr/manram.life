@@ -113,11 +113,11 @@ export default function Footer() {
               </a>
 
               <a
-                href="mailto:namaste@manram.life"
+                href="mailto:namaskaram@manram.life"
                 className="flex items-center gap-3 p-3 rounded-xl bg-forest-900/80 hover:bg-forest-800 transition-colors border border-forest-800 text-cream"
               >
                 <Mail className="w-4 h-4 text-terracotta-200" />
-                <span>namaste@manram.life</span>
+                <span>namaskaram@manram.life</span>
               </a>
 
               <div className="flex items-center gap-3 p-3 rounded-xl bg-forest-900/40 border border-forest-800/60 text-cream-300">
@@ -216,8 +216,8 @@ export default function Footer() {
               </p>
               <p>
                 For any questions regarding our privacy practices, please contact us at{' '}
-                <a href="mailto:namaste@manram.life" className="text-forest underline">
-                  namaste@manram.life
+                <a href="mailto:namaskaram@manram.life" className="text-forest underline">
+                  namaskaram@manram.life
                 </a>.
               </p>
             </div>

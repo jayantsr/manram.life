@@ -35,8 +35,8 @@ export default function Contact() {
   const handleEmailSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     const subject = `Enquiry from ${formData.name || 'Website Visitor'}: ${formData.interest}`
-    const body = `Namaste Manram Team,\n\nI am reaching out regarding ${formData.interest}.\n\nName: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\n\nMessage:\n${formData.message}`
-    const mailtoUrl = `mailto:namaste@manram.life?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
+    const body = `Namaskaram Manram Team,\n\nI am reaching out regarding ${formData.interest}.\n\nName: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\n\nMessage:\n${formData.message}`
+    const mailtoUrl = `mailto:namaskaram@manram.life?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
     window.location.href = mailtoUrl
     setSubmittedVia('email')
   }
@@ -100,7 +100,7 @@ export default function Contact() {
                 </a>
 
                 <a
-                  href="mailto:namaste@manram.life"
+                  href="mailto:namaskaram@manram.life"
                   className="flex items-center gap-4 p-4 rounded-2xl bg-forest-800/80 hover:bg-forest-700/80 border border-forest-600 transition-colors group"
                 >
                   <div className="w-11 h-11 rounded-xl bg-terracotta/30 flex items-center justify-center text-terracotta-200 group-hover:scale-110 transition-transform">
@@ -111,7 +111,7 @@ export default function Contact() {
                       Email Address
                     </div>
                     <div className="text-base font-semibold text-white tracking-wide">
-                      namaste@manram.life
+                      namaskaram@manram.life
                     </div>
                   </div>
                 </a>
@@ -144,7 +144,7 @@ export default function Contact() {
                 </a>
 
                 <a
-                  href="mailto:namaste@manram.life"
+                  href="mailto:namaskaram@manram.life"
                   className="flex items-center justify-center gap-2 px-5 py-3.5 rounded-full bg-cream hover:bg-white text-forest font-medium text-xs tracking-wide transition-all shadow-soft"
                 >
                   <Mail className="w-4 h-4" />

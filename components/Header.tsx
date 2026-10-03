@@ -233,10 +233,10 @@ export default function Header() {
               <span>WhatsApp: +91 9895992832</span>
             </a>
             <a
-              href="mailto:namaste@manram.life"
+              href="mailto:namaskaram@manram.life"
               className="flex items-center gap-2.5 px-4 py-2.5 rounded-xl bg-cream-200 text-charcoal text-xs font-medium hover:bg-cream-300 transition-colors border border-cream-400"
             >
-              <span>Email: namaste@manram.life</span>
+              <span>Email: namaskaram@manram.life</span>
             </a>
           </div>
         </div>
