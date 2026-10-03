@@ -133,9 +133,24 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-cream-300/80 font-sans">
-          <div>
-            &copy; {new Date().getFullYear()} Manram (manram.life). All rights reserved. A Collective Wisdom.
+        <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-cream-300/80 font-sans">
+          <div className="text-center md:text-left">
+            <span>&copy; {new Date().getFullYear()} Manram (manram.life). All rights reserved.</span>
+            <span className="hidden sm:inline"> · </span>
+            <span className="block sm:inline mt-1 sm:mt-0">A Collective Wisdom.</span>
+          </div>
+
+          {/* Builder & Maintainer Attribution */}
+          <div className="text-center text-cream-300/75">
+            Built &amp; maintained by{' '}
+            <a
+              href="https://cylogics.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-terracotta-200 hover:text-cream font-semibold tracking-wide transition-colors underline underline-offset-4"
+            >
+              CYLOGICS
+            </a>
           </div>
 
           <div className="flex items-center gap-6">
