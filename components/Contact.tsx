@@ -27,7 +27,7 @@ export default function Contact() {
   const handleWhatsAppSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     const text = `Namaste Manram Team,\n\nI would like to inquire about: ${formData.interest}\n\n*Name:* ${formData.name || 'Not provided'}\n*Email:* ${formData.email || 'Not provided'}\n*Phone:* ${formData.phone || 'Not provided'}\n\n*Message:* ${formData.message || 'I would like to know more about Manram programs and retreats.'}`
-    const url = `https://wa.me/919895992832?text=${encodeURIComponent(text)}`
+    const url = `https://wa.me/919497212832?text=${encodeURIComponent(text)}`
     window.open(url, '_blank')
     setSubmittedVia('whatsapp')
   }
@@ -81,7 +81,7 @@ export default function Contact() {
               {/* Contact list */}
               <div className="space-y-5">
                 <a
-                  href="https://wa.me/919895992832"
+                  href="https://wa.me/919497212832"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 rounded-2xl bg-forest-800/80 hover:bg-forest-700/80 border border-forest-600 transition-colors group"
@@ -94,7 +94,7 @@ export default function Contact() {
                       WhatsApp & Mobile
                     </div>
                     <div className="text-base font-semibold text-white tracking-wide">
-                      +91 9895992832
+                      +91 9497212832
                     </div>
                   </div>
                 </a>
@@ -134,7 +134,7 @@ export default function Contact() {
               {/* Direct Buttons */}
               <div className="mt-8 pt-8 border-t border-forest-700 grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <a
-                  href="https://wa.me/919895992832"
+                  href="https://wa.me/919497212832"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 px-5 py-3.5 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white font-medium text-xs tracking-wide transition-all shadow-soft"
@@ -226,7 +226,7 @@ export default function Contact() {
                     id="phone-number"
                     value={formData.phone}
                     onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                    placeholder="+91 98959 92832"
+                    placeholder="+91 94972 12832"
                     className="w-full px-4 py-3.5 rounded-xl border border-cream-400 bg-[#FAF8F2] text-charcoal text-sm placeholder:text-stone-400 focus:outline-none focus:ring-2 focus:ring-forest focus:border-transparent transition-all"
                   />
                 </div>

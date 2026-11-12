@@ -103,13 +103,13 @@ export default function Footer() {
             </h4>
             <div className="space-y-3 text-sm text-cream-200 font-sans">
               <a
-                href="https://wa.me/919895992832"
+                href="https://wa.me/919497212832"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 p-3 rounded-xl bg-forest-900/80 hover:bg-forest-800 transition-colors border border-forest-800 text-cream"
               >
                 <MessageCircle className="w-4 h-4 text-emerald-400" />
-                <span>+91 9895992832 (WhatsApp)</span>
+                <span>+91 9497212832 (WhatsApp)</span>
               </a>
 
               <a

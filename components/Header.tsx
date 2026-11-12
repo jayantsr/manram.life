@@ -93,7 +93,7 @@ export default function Header() {
             {/* Right Action: WhatsApp & Contact CTA (Desktop) */}
             <div className="hidden lg:flex items-center gap-2 xl:gap-3 flex-shrink-0">
               <a
-                href="https://wa.me/919895992832"
+                href="https://wa.me/919497212832"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`inline-flex items-center gap-2 px-3 py-1.5 xl:px-3.5 xl:py-2 rounded-full text-xs font-medium transition-all duration-200 whitespace-nowrap flex-shrink-0 ${
@@ -101,14 +101,14 @@ export default function Header() {
                     ? 'border border-forest/15 bg-white/90 hover:bg-forest/5 text-forest shadow-sm'
                     : 'border border-white/20 bg-white/10 hover:bg-white/20 text-cream backdrop-blur-sm'
                 }`}
-                title="Direct WhatsApp: +91 9895992832"
+                title="Direct WhatsApp: +91 9497212832"
               >
                 <span className="relative flex h-2 w-2 flex-shrink-0">
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
                 </span>
                 <MessageCircle className="w-3.5 h-3.5 text-emerald-400 flex-shrink-0" />
-                <span className="hidden xl:inline whitespace-nowrap">+91 9895992832</span>
+                <span className="hidden xl:inline whitespace-nowrap">+91 9497212832</span>
                 <span className="inline xl:hidden whitespace-nowrap">WhatsApp</span>
               </a>
 
@@ -128,7 +128,7 @@ export default function Header() {
             {/* Mobile / Tablet Actions */}
             <div className="flex lg:hidden items-center gap-2">
               <a
-                href="https://wa.me/919895992832"
+                href="https://wa.me/919497212832"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`p-2 rounded-full border transition-colors ${
@@ -224,13 +224,13 @@ export default function Header() {
               Get in touch directly:
             </div>
             <a
-              href="https://wa.me/919895992832"
+              href="https://wa.me/919497212832"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2.5 px-4 py-2.5 rounded-xl bg-forest text-cream text-xs font-medium hover:bg-forest-800 transition-colors"
             >
               <MessageCircle className="w-4 h-4 text-emerald-400" />
-              <span>WhatsApp: +91 9895992832</span>
+              <span>WhatsApp: +91 9497212832</span>
             </a>
             <a
               href="mailto:namaskaram@manram.life"

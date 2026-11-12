@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 import { Lora, DM_Sans, Playfair_Display } from 'next/font/google'
 import './globals.css'
+import WhatsAppFloat from '../components/WhatsAppFloat'
 
 const lora = Lora({
   subsets: ['latin'],
@@ -105,6 +106,7 @@ export default function RootLayout({
       </head>
       <body className="bg-[#FAF8F2] text-charcoal min-h-screen antialiased selection:bg-forest selection:text-cream">
         {children}
+        <WhatsAppFloat />
       </body>
     </html>
   )
